@@ -1,0 +1,33 @@
+.header{
+  height: 6rem;
+  background: rgb(239,221,230);
+  background: linear-gradient(173deg, rgba(239,221,230,1) 0%, rgba(178,196,227,1) 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .header__nav{
+    color: #FFF;
+    font-family: 'NeueHaasDisplay-Medium', sans-serif;
+
+    a{
+      font-size: 1.2em;
+      margin-right: 5rem;
+      transition: all .5s;
+      font-family: 'NeueHaasDisplay-Medium', sans-serif;
+
+      &:hover{
+        border-bottom: 1px solid #FFF;
+      }
+    }
+    .selected {
+      text-decoration: underline;
+    }
+  }
+  .header__logo{
+    margin-left: 2rem;
+    font-family: 'Pistilli Roman';
+    font-size: 4em;
+    letter-spacing: -6px;
+  }
+}

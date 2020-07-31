@@ -1,0 +1,26 @@
+@import 'reset';
+@import 'vars';
+
+@font-face {
+  font-family: "NeueHaasDisplay-Roman";
+  src: url("../assets/fonts/NeueHaasDisplay-Roman.ttf");
+}
+@font-face {
+    font-family: "NeueHaasDisplay-Medium";
+    src: url("../assets/fonts/NeueHaasDisplay-Mediu.ttf");
+}
+@font-face {
+    font-family: "NeueHaasDisplay-Light";
+    src: url("../assets/fonts/NeueHaasDisplay-Light.ttf");
+}
+@font-face {
+  font-family: "Pistilli Roman";
+  src: url("../assets/fonts/Pistilli-Roman.otf");
+}
+*{
+    font-family: 'NeueHaasDisplay-Light', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
