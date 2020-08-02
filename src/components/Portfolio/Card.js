@@ -2,26 +2,33 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
-const Card = ({ name, description, technology, buttonClass, mainPicture }) => (
+const Card = ({
+  name,
+  buttonClass,
+  mainPicture,
+  id,
+}) => (
   <div className="card" >
-    <img src={mainPicture} className="card__img" alt=""/>
-    <div className="card__body">
-      <h5 className="card__title">{name}</h5>
-      <p className="card__text">Développeur full-stack</p>
-      <p className="card__text">{description}</p>
-      <p className="card__text-2">Techno : Html/css, javascript</p>
-      <Link to="/projet" className={buttonClass}>
-      Voir le projet
-      </Link>
-    </div>
+    <Link to={`portfolio/${id}`}>
+      <div className="card__img">
+        <img src={mainPicture} alt=""/>
+      </div>
+      <div className="card__body">
+        <div className="card__body__content">
+          <h4 className="card__title">{name}</h4>
+          <p className="card__text">Développeur full-stack</p>
+          <div className={buttonClass}>
+            Voir le projet
+          </div>
+        </div>
+      </div>
+    </Link>
   </div>
 );
 
-
 Card.propTypes = {
+  id: PropTypes.number.isRequired,
   name: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
-  technology: PropTypes.array.isRequired,
   buttonClass: PropTypes.string.isRequired,
   mainPicture: PropTypes.string.isRequired,
 }
