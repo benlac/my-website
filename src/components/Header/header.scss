@@ -8,7 +8,6 @@
 
   .header__nav{
     color: #FFF;
-    font-family: 'NeueHaasDisplay-Medium', sans-serif;
 
     a{
       font-size: 1.2em;
@@ -16,7 +15,7 @@
       transition: all .5s;
       display: inline-block;
       position: relative;
-      font-family: 'NeueHaasDisplay-Medium', sans-serif;
+      font-family: 'NeueHaasDisplay-Roman', sans-serif;
       
       &::after {
         content: '';
@@ -61,7 +60,7 @@
   .header__logo{
     margin-left: 2rem;
     font-family: 'Pistilli Roman';
-    font-size: 4em;
+    font-size: 3.5em;
     letter-spacing: -6px;
   }
 }

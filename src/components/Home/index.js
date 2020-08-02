@@ -3,14 +3,10 @@ import React from 'react';
 import './home.scss';
 import home from './home.png';
 
-const Home = ({ onMouseOver, onMouseLeave }) => (
+const Home = () => (
   <main className="home">
     <section className="home__section-1">
-        <p
-          className="home__section-1__p"
-          onMouseOver={onMouseOver}
-          onMouseLeave={onMouseLeave}
-        >
+        <p className="home__section-1__p">
         Bienvenue, je suis <br/><span>Benoit Lacombled.</span><br/>Développeur web <br/> <span>front-end.</span>
         </p>
     </section>

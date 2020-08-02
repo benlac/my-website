@@ -22,12 +22,6 @@ const Contact = ({ contactValue, handleChange }) => (
         handleChange={handleChange}
       />
       <Field
-        placeholder="Société"
-        value={contactValue.company}
-        name="Société"
-        handleChange={handleChange}
-      />
-      <Field
         placeholder="Email"
         value={contactValue.mail}
         name="mail"

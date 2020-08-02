@@ -18,7 +18,6 @@ class App extends React.Component {
       contact: {
         lastname: '',
         firstname: '',
-        company: '',
         mail: '',
         message: '',
       }

@@ -1,3 +1,5 @@
+@import 'src/styles/vars';
+
 footer{
   margin-top: 6rem;
   width: 100%;
@@ -24,4 +26,21 @@ footer{
 }
 .btn-contact--cv{
   border-radius: 4px;
+}
+
+@media #{$small-down} {
+  footer {
+    height: auto;
+    margin-top: 3rem;
+  }
+  .footer__nav {
+    flex-direction: column;
+
+    a {
+      margin: .5rem;
+    }
+    .footer__social {
+      margin: .5rem;
+    }
+  }
 }
