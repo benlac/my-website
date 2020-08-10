@@ -16,7 +16,7 @@ const Card = ({
       <div className="card__body">
         <div className="card__body__content">
           <h4 className="card__title">{name}</h4>
-          <p className="card__text">Développeur full-stack</p>
+          <p className="card__text">Développeur front-end</p>
           <div className={buttonClass}>
             Voir le projet
           </div>

@@ -37,7 +37,7 @@ export default [
       {
         id: 4,
         pictureContent: 'import',
-        pictureAlt: 'Page pour envoyer un message sur le site Gratitude',
+        pictureAlt: '',
       },
       {
         id: 5,
@@ -84,7 +84,7 @@ export default [
       {
         id: 4,
         pictureContent: 'import',
-        pictureAlt: 'Page pour envoyer un message sur le site Gratitude',
+        pictureAlt: '',
       },
       {
         id: 5,
@@ -132,7 +132,7 @@ export default [
       {
         id: 4,
         pictureContent: 'import',
-        pictureAlt: 'Page pour envoyer un message sur le site Gratitude',
+        pictureAlt: '',
       },
       {
         id: 5,
@@ -176,7 +176,7 @@ export default [
       {
         id: 4,
         pictureContent: 'import',
-        pictureAlt: 'Page pour envoyer un message sur le site Gratitude',
+        pictureAlt: '',
       },
       {
         id: 5,
@@ -219,7 +219,7 @@ export default [
       {
         id: 4,
         pictureContent: 'import',
-        pictureAlt: 'Page pour envoyer un message sur le site Gratitude',
+        pictureAlt: '',
       },
       {
         id: 5,
@@ -263,7 +263,7 @@ export default [
       {
         id: 4,
         pictureContent: 'import',
-        pictureAlt: 'Page pour envoyer un message sur le site Gratitude',
+        pictureAlt: '',
       },
       {
         id: 5,
